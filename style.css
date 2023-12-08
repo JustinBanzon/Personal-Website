@@ -1,0 +1,87 @@
+.title{
+    background-color: aqua;
+    text-align: center;
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+.profile-pic{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px solid black;
+}
+#resume{
+    text-align: center;
+}
+.container{
+    display: flex;
+}
+.title *{
+    z-index: 1;
+}
+.cloud{
+    z-index: 0;
+}
+.top{
+    position: absolute;
+    right: 300px;
+    top: 35px;
+}
+.bottom{
+    position: absolute;
+    bottom:35px;
+    left: 300px;
+}
+#about-me-page{
+    background-color: cornflowerblue;
+}
+#about-me-page>ul{
+    font-size: 20px;
+}
+.text-body{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.title>h1{
+    font-family: "Moon dance", cursive;
+    font-size: 60px;
+    z-index: 1;
+}
+h2.large-title{
+    font-size: 40px;
+}
+h3.large-title{
+    font-size: 30px;
+}
+.menu-list, .nav{
+list-style: none;
+
+}
+.container, .nav{
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item{
+    padding: 5px;
+    font-size: 20px;
+}
+.text-center{
+    text-align: center;
+}
+#resume{
+    color: dodgerblue;
+}
+@media (max-width:1200px){}
+@media (max-width:600px){
+    .nav{
+        flex-direction: column;
+    }
+}
