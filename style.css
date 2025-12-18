@@ -1,5 +1,5 @@
 .title{
-    background-color: aqua;
+    background-color: #78e0ff;
     text-align: center;
     position:relative;
     display: flex;
@@ -7,6 +7,12 @@
     justify-content: center;
     align-items: center;
     height: 300px;
+}
+#projects-worked-on{
+    background-color: #80b8ff;
+}
+#resume{
+    background-color: #b82830;
 }
 .profile-pic{
     width: 200px;
@@ -41,6 +47,9 @@
 }
 #about-me-page>ul{
     font-size: 20px;
+}
+#about-me-blurb{
+    font-size: 25px;
 }
 .text-body{
     font-size: 20px;
